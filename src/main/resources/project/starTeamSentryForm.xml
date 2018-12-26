@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<editor>
+    <formElement>
+        <type>entry</type>
+        <label>Project Name:</label>
+        <property>StarTeamProjectName</property>
+        <required>1</required>
+        <documentation>The name of the Starteam project. (Required)</documentation>
+    </formElement>
+
+    <formElement>
+        <type>entry</type>
+        <label>View Name:</label>
+        <property>StarTeamViewName</property>
+        <required>0</required>
+        <documentation>This can be the name of a single view or a ":"-separated view hierarchy as defined by Starteam.  The hierarchy must start from the root view.</documentation>
+    </formElement>
+
+    <formElement>
+        <type>entry</type>
+        <label>Folder Path:</label>
+        <property>StarTeamFolderPath</property>
+        <required>0</required>
+        <documentation>You can leave this blank if the path that you are monitoring starts in the root folder.  If you want to monitor a sub-path within the root folder, you can specify that path as a "/"-separated hierarchy, starting from the folder immediately below the root folder.</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Label:</label>
+        <property>StarTeamLabel</property>
+        <required>0</required>
+        <documentation>You can leave this blank if you don't use labels.</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Additional Options:</label>
+        <property>AdditionalOptionts</property>
+        <required>0</required>
+        <documentation>This can be any option sent to starteam with correct spacing '-o -filter "IOGU"'.</documentation>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Quiet time minutes:</label>
+        <property>QuietTimeMinutes</property>
+        <documentation>The number of minutes of no check-in activity required before launching the procedure.</documentation>
+    </formElement>
+
+    <formElement>
+        <type>checkbox</type>
+        <label>Enabled for ElectricSentry:</label>
+        <property>TriggerFlag</property>
+        <checkedValue>2</checkedValue>
+        <uncheckedValue>0</uncheckedValue>
+        <initiallyChecked>1</initiallyChecked>
+        <documentation>Enable for continuous integration monitoring by ElectricSentry.</documentation>
+    </formElement>
+    <formElement>
+        <property>priority</property>
+        <configurable>1</configurable>
+    </formElement>
+
+    <formElement>
+        <property>scheduleDisabled</property>
+        <value>1</value>
+    </formElement>
+</editor>

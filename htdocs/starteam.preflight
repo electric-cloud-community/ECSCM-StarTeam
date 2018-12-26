@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+        <server>
+                <userName>admin</userName>
+                <hostName>chronic4</hostName>          
+                <password>changeme</password>              
+        </server>
+        <procedure>
+                <projectName>StarTeam Project</projectName>
+                <procedureName>Preflight</procedureName>
+                <jobTimeout>7200</jobTimeout>
+        </procedure>
+        <scm>
+            <type>ECSCM-StarTeam</type>
+            <endpoint>49201</endpoint>
+            <hostname>StarTeam</hostname>
+            <username>build</username>            
+            <password>Mbimp,vm</password>	            
+            <projectname>helloworld</projectname>   
+            <workingdir>C:\rafaelTest</workingdir>
+        </scm>
+</data>

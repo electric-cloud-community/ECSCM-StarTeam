@@ -1,0 +1,45 @@
+<editor> 
+    <formElement>
+        <type>textarea</type>
+        <label>Description:</label>
+        <documentation>You can supply a text description only for your reference. Commander does not use this information.</documentation>
+         <property>description</property>     
+    </formElement>
+   <formElement>
+        <type>credential</type>
+        <label>Login As:</label>
+        <documentation>Provide the user name and password that Commander uses to communicate with the StarTeam server.</documentation>
+        <property>credential</property>
+    </formElement>
+	 <formElement>
+        <type>entry</type>
+        <label>EndPoint:</label>
+        <property>StarTeamEndPoint</property>
+        <documentation>The EndPoint is the port used by the StarTeam server. If not provided, use default port 1024.</documentation>
+        <required>0</required>
+    </formElement>
+	 <formElement>
+        <type>entry</type>
+        <label>Hostname:</label>
+        <property>StarTeamHostName</property>
+        <documentation>Specifies the hostname of the StarTeam server. (Required)</documentation>
+        <required>1</required>
+    </formElement>
+    <formElement>
+        <type>entry</type>
+        <label>Password file:</label>
+        <property>StarTeamPasswordFile</property>
+        <documentation>Specifies the path of the file where the password is stored.</documentation>
+        <required>0</required>
+    </formElement>	
+	<formElement>
+        <type>checkbox</type>
+		<checkedValue>1</checkedValue>
+		<uncheckedValue>0</uncheckedValue>
+        <documentation>If checked, the StarTeam server takes the file as an encrypted file.</documentation>
+        <label>Password file is encrypted:</label>
+        <property>StarTeamPasswordFileIsEncrypted</property>
+        <required>0</required>
+    </formElement>	
+   
+</editor>
