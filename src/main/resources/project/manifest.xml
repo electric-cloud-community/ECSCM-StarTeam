@@ -1,0 +1,47 @@
+<?xml version='1.0' standalone='yes'?>
+<fileset>
+  <file>
+    <path>StarTeamCfg.pm</path>
+    <xpath>//property[propertyName=&quot;ECSCM::StarTeam::Cfg&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>StarTeamDriver.pm</path>
+    <xpath>//property[propertyName=&quot;ECSCM::StarTeam::Driver&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamSentryForm.xml</path>
+    <xpath>//property[propertyName=&quot;sentry&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamCheckoutForm.xml</path>
+    <xpath>//property[propertyName=&quot;checkout&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamCreateConfigForm.xml</path>
+    <xpath>//property[propertyName=&quot;createConfig&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamTriggerForm.xml</path>
+    <xpath>//property[propertyName=&quot;trigger&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamEditConfigForm.xml</path>
+    <xpath>//property[propertyName=&quot;editConfig&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamPreflightForm.xml</path>
+    <xpath>//property[propertyName=&quot;preflight&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>ec_setup.pl</path>
+    <xpath>//property[propertyName=&quot;ec_setup&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamCheckoutForm.xml</path>
+    <xpath>//procedure[procedureName=&quot;CheckoutCode&quot;]/propertySheet/property[propertyName=&quot;ec_parameterForm&quot;]/value</xpath>
+  </file>
+  <file>
+    <path>starTeamPreflightForm.xml</path>
+    <xpath>//procedure[procedureName=&quot;Preflight&quot;]/propertySheet/property[propertyName=&quot;ec_parameterForm&quot;]/value</xpath>
+  </file>
+</fileset>
